@@ -1,8 +1,8 @@
 *{
     background-color: #E6D3F8;
     color: #000000;
-    margin: 10;
-    padding: 5;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
 }
 
@@ -37,7 +37,45 @@
     padding: 10px;
 }
 
-.orgimg img{
-    height:20%;
-    width:auto;
+.orgimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.orgimg img {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+    max-width:100%;
+}
+
+.orcid img{
+    position: absolute;
+    top: 418px;
+    left: 650px;
+    width: 280px;
+    height: auto;
+}
+
+.org-grid{
+    display: grid; /* grid display */
+    grid-template-columns: repeat(3,1fr); /* 3 columns with the same width */
+    gap: 10px;
+    padding: 0;
+    margin: 50px auto;
+    width: 30%;
+}
+
+.org-grid-bottom{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    padding: 0;
+    margin: 50px auto;
+    width:40%;
 }
