@@ -67,7 +67,7 @@
 }
 
 .section-heading { /* work, events, bib */
-    margin-left:6em;
+    margin-left:15vw;
     margin-bottom:20px;
     font-family: "Dongle", sans-serif;
     font-size: 2.3vw;
@@ -92,7 +92,7 @@
     font-weight: bold;
     font-size: 1.8vw;
     display:block;
-    margin-left: 9em;
+    margin-left: 17vw;
     margin-bottom: 10px;
 }
 
@@ -103,7 +103,7 @@
     padding:20px;
     margin-top:0px;
     padding-top:0px;
-    margin-left:12em;
+    margin-left:19vw;
     overflow-wrap:break-word;
     text-align: justify;
 
