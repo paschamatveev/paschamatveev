@@ -59,11 +59,31 @@
 
     margin:0 auto 40px auto;
     margin-bottom:40px;
+
+    
 }
 
 .subtitle a {
     margin: 0; 
     padding: 0;
+}
+
+.about-me-text{
+    font-size:1.5vw;
+    font-family:"verdana", sans-serif;
+    text-align: justify;
+
+}
+
+.about-me-text-border{
+    border-radius: 1vw;
+    display: inline-block;
+    padding:1vw;
+    margin-bottom:2px;
+    background: #C0D0F0;
+    margin-left:15vw;
+    margin-top:5vw;
+    width:70vw;
 }
 
 .section-heading { /* work, events, bib */
@@ -72,12 +92,13 @@
     font-family: "Dongle", sans-serif;
     font-size: 2.3vw;
     display:block;
+    margin-top:2vw;
 }
 
 .section-heading-border{
     /*border*/
-    border-radius: 10px;
-    border-width: 3.5px;
+    border-radius: 1vw;
+    border-width: 0.6vw;
     border-color: #8962B6; /*62017A*/
     border-style:solid;
     display: inline-block;
@@ -98,7 +119,8 @@
 
 .body-text{ /* body text */
     text-align: center;
-    width:800px;
+    width:70vw;
+    min-width:800px;
     height:auto;
     padding:20px;
     margin-top:0px;
