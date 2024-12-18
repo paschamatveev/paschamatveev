@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.title{
+.title{ /* name */
     text-align: center;
     color: #000000;
     padding: 10px;
@@ -33,7 +33,7 @@
     margin-bottom:40px;
 }
 
-.subtitle{
+.subtitle{ /* pronouns*/
     font-family: 'Lexend', sans-serif;
     text-align: center;
     font-size: 2.6vw;
@@ -64,11 +64,11 @@
     padding: 0;
 }
 
-.section-heading {
+.section-heading { /* work, events, bib */
     margin-left:200px;
     margin-bottom:20px;
     font-family: "Dongle", sans-serif;
-    font-size: 2vw;
+    font-size: 2.3vw;
     display:block;
 }
 
@@ -80,22 +80,43 @@
     border-style:solid;
     display: inline-block;
     padding:5px;
-    margin-bottom:10px;
+    padding-bottom:2px;
+    margin-bottom:2px;
     background: #E9D6FF;
 }
 
-.item-heading{
-    font-family: "Dongle", sans-serif;
-    font-size: 1.5vw;
+.item-heading{ /* headings in work, events, bib */
+    font-family: "Lucida Bright", serif;
+    font-weight: bold;
+    font-size: 1.8vw;
     display:block;
     margin-left: 230px;
     margin-bottom: 10px;
 }
 
-.body-text{
-    text-indent: 100px;
-    padding: 10px;
+.body-text{ /* body text */
     text-align: center;
+    width:800px;
+    height:auto;
+    padding:20px;
+    margin-top:0px;
+    padding-top:0px;
+    margin-left:230px;
+    overflow-wrap:break-word;
+    text-align: justify;
+
+    font-size:1.5vw;
+    font-family:"verdana", sans-serif;
+}
+
+.body-text-border{
+    /*border*/
+    border-radius: 10px;
+    border-width: 0px;
+    display: inline-block;
+    padding:10px;
+    margin-bottom:2px;
+    background: #E5C2E7;
 }
 
 .orgimg {
