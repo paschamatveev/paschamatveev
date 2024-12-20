@@ -51,7 +51,7 @@ button h2 {
     text-align: center;
     color: #000000;
     padding: 10px;
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: 'Lexend Zetta', sans-serif;
     font-weight: bold;
     margin-top:20px;
@@ -77,7 +77,7 @@ button h2 {
 .subtitle{ /* pronouns*/
     font-family: 'Lexend', sans-serif;
     text-align: center;
-    font-size: 2.6vw;
+    font-size: 2vw;
     color: #000000;
     text-align: center;
     margin-top:30px;
@@ -98,8 +98,6 @@ button h2 {
 
     margin:0 auto 40px auto;
     margin-bottom:40px;
-
-    
 }
 
 .subtitle a {
@@ -108,7 +106,7 @@ button h2 {
 }
 
 .about-me-text{
-    font-size:1.5vw;
+    font-size:1.2vw;
     font-family:"verdana", sans-serif;
     text-align: justify;
 
@@ -120,37 +118,44 @@ button h2 {
     padding:1vw;
     margin-bottom:2px;
     background: #C0D0F0;
-    margin-left:15vw;
+    margin-left:25vw;
     margin-top:5vw;
-    width:70vw;
+    width:50vw;
 }
 
-.section-heading { /* work, events, bib */
-    margin-left:15vw;
-    margin-bottom:20px;
-    font-family: "Dongle", sans-serif;
-    font-size: 2.3vw;
-    display:block;
+.section-container { /* makes it so theyre next to each other */
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Distribute space evenly */
+    align-items:center;
+    width:100%;
     margin-top:2vw;
+    margin-bottom:2vw;
+} 
+
+.section-heading { /* work, events, bib */
+    font-family: "Dongle", sans-serif;
+    font-size: 2vw;
+    width:100%;
+    margin:0 1vw;
 }
 
 .section-heading-border{
-    /*border*/
     border-radius: 1vw;
-    border-width: 0.6vw;
+    border-width: 0.4vw;
     border-color: #8962B6; /*62017A*/
-    border-style:solid;
-    display: inline-block;
-    padding:5px;
-    padding-bottom:2px;
-    margin-bottom:2px;
+    border-style: solid;
     background: #E9D6FF;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+    width: 100%;
 }
 
 .item-heading{ /* headings in work, events, bib */
     font-family: "Lucida Bright", serif;
     font-weight: bold;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     display:block;
     margin-left: 17vw;
     margin-bottom: 10px;
@@ -168,7 +173,7 @@ button h2 {
     overflow-wrap:break-word;
     text-align: justify;
 
-    font-size:1.5vw;
+    font-size:1.1vw;
     font-family:"verdana", sans-serif;
 }
 

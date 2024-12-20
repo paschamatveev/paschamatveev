@@ -27,12 +27,33 @@
             I hope to enter graduate school in fall of 2025 (interview season is upon us!). Check back to see
             where I end up.
             </span></div>
+        
+        <div class="section-container">
+            <button id="button-1" onclick="sectionDropdown('section-dropdown-1')">
+                <h2 class="section-heading">
+                    <span class="section-heading-border">Current Work</span>
+                </h2>
+            </button>
+    
+            <button id="button-2" onclick="sectionDropdown('section-dropdown-2')">
+                <h2 class="section-heading">
+                    <span class="section-heading-border">Selected Events</span>
+                </h2>
+            </button>
+    
+            <button id="button-3" onclick="sectionDropdown('section-dropdown-3')">
+                <h2 class="section-heading">
+                    <span class="section-heading-border">Past Work</span>
+                </h2>
+            </button>
+    
+            <button id="button-4" onclick="sectionDropdown('section-dropdown-4')">
+                <h2 class="section-heading">
+                    <span class="section-heading-border">Bibliography</span>
+                </h2>
+            </button>
+        </div>
 
-        <button onclick="sectionDropdown('section-dropdown-1')">
-            <h2 class="section-heading">
-                <span class="section-heading-border">Current Work</span>
-            </h2>
-        </button>
 
         <div id='section-dropdown-1' style="display:none">
             <p class="item-heading">Steinmetz Lab</p>
@@ -40,14 +61,16 @@
                 Optimizing a novel method to combine widefield calcium imaging and optogenetics in mice <br>
                 Collaborating with applied math and control theory groups 
                 (Eric Shea-Brown, Mehran Mesbahi, Nathaniel Kutz) to create dynamical models of brain activity <br>
-                Analyzing data, executing experiments, and performing quantitative analysis independently</span></p>
+                Analyzing data, executing experiments, and performing quantitative analysis independently</span>
+            </p>
             
             <p class="item-heading">CoNECT <span style="font-size:1.5vw">(Community for NeuroEthics, Computation, and Technology)</span></p>
             <p class="body-text"><span class="body-text-border">
                 Building community in computational neuroscience and other neuroscience-related fields <br>
                 Establishing connections between students, faculty, industry across fields <br>
                 Hosting events for graduates and undergraduates to learn about computational neuroscience and related fields</span></p>
-                </span></p>
+                </span>
+            </p>
 
             <p class="item-heading">Grey Matters</p>
             <p class="body-text"><span class="body-text-border">
@@ -64,11 +87,6 @@
                 </span></p>
         </div>
 
-        <button onclick="sectionDropdown('section-dropdown-2')">
-            <h2 class="section-heading">
-                <span class="section-heading-border">Selected Events</span>
-            </h2>
-        </button>
 
         <div id="section-dropdown-2" style="display:none">
             <p class="item-heading">Open House</p>
@@ -90,7 +108,7 @@
                 Included talks, minisymposia, and networking 
                 </span></p>
 
-            <p class="item-heading">Evening With Neuroscience</div>
+            <p class="item-heading">Evening With Neuroscience</p>
             <p class="body-text"><span class="body-text-border">
                 Organizing an event for the public to learn about 
                 neuroscience research at UW <br>
@@ -101,30 +119,30 @@
                 Organizing a haunted house for Halloween to raise money for neuroscience outreach <br>
                 Includes a maze, games, and prizes</span></p>
         </div>
-        
-        <h2 class="section-heading"><span class="section-heading-border">Past Work</span></h2>
 
-        <div class="item-heading">Cognition and Cortical Dynamics Laboratory</div>
-        <div class="body-text"><span class="body-text-border">
-            Compared learning and memory of natural languages to coding languages <br>
-            Collecting behavioral and quantitative data as participants learned to code in Java <br>
-            Designing and grading participant coding projects, ~50 participants/quarter <br>
-            </span></div>
+        <div id="section-dropdown-3" style="display:none">
+            <p class="item-heading">Cognition and Cortical Dynamics Laboratory</p>
+            <p class="body-text"><span class="body-text-border">
+                Compared learning and memory of natural languages to coding languages <br>
+                Collecting behavioral and quantitative data as participants learned to code in Java <br>
+                Designing and grading participant coding projects, ~50 participants/quarter <br>
+                </span></p>
 
-        <div class="item-heading">Idle No More Washington</div>
-        <div class="body-text"><span class="body-text-border">
-            Created educational materials and presentations for the public <br>
-            Collaborated with other organizations to support Indigenous communities <br>
-            </span></div>
+            <p class="item-heading">Idle No More Washington</p>
+            <p class="body-text"><span class="body-text-border">
+                Created educational materials and presentations for the public <br>
+                Collaborated with other organizations to support Indigenous communities <br>
+                </span></p>
 
-        <div class="item-heading">Synaptech</div>
-        <div class="body-text"><span class="body-text-border">
-            Project based club focused on creating Brain Computer Interfaces (BCIs).
-            Creating a non-invasive BCI which can control cursor movements.
-            Python programming, data collection and management, machine learning.
-            </span></div>
+            <p class="item-heading">Synaptech</p>
+            <p class="body-text"><span class="body-text-border">
+                Project based club focused on creating Brain Computer Interfaces (BCIs).
+                Creating a non-invasive BCI which can control cursor movements.
+                Python programming, data collection and management, machine learning.
+                </span></p>
+       </div>
 
-        <h2 class="section-heading"><span class="section-heading-border">Bibliography</span></h2>
+
         <!--Organization Icons-->
         <div class="org-grid">
             <a class="orgimg top-row" href="https://sites.uw.edu/neusci/"> <!-- UW -->
@@ -154,6 +172,7 @@
                 <img src="website logos/orcid-logo.webp" alt="Clickable Image">
                 </a>
         </div>
+
         <script src='java-website.js'></script>
     </body>
 </html>
