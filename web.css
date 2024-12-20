@@ -23,6 +23,30 @@
     border: 0px solid #F2F4FF;
 }
 
+p{
+    background-color: transparent;
+}
+
+span{
+    background-color: transparent;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: none; /* Remove border */
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+button h2 {
+    margin: 0;
+    padding: 10px;
+}
+
 .title{ /* name */
     text-align: center;
     color: #000000;
