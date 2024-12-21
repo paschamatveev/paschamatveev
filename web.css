@@ -163,13 +163,13 @@ button h2 {
 
 .body-text{ /* body text */
     text-align: center;
-    width:70vw;
+    /* width:70vw;
     min-width:800px;
     height:auto;
     padding:20px;
     margin-top:0px;
     padding-top:0px;
-    margin-left:19vw;
+    margin-left:19vw; */
     overflow-wrap:break-word;
     text-align: justify;
 
